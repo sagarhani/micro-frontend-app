@@ -2,7 +2,12 @@
 <html>
   <head></head>
   <body>
-    <div id="dev-products"></div>
-    <div id="dev-cart"></div>
+    <!-- 
+      * Naming an id as 'products' will throw an error, as our products 
+      application name is also products
+      * An element with an id as 'products' will make a global variable named products 
+      which will conflict with products application -->
+    <div id="production-products"></div>
+    <div id="production-cart"></div>
   </body>
 </html>
